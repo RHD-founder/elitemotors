@@ -1,0 +1,38 @@
+|-- .gitignore
+|-- eslint.config.mjs
+|-- next-env.d.ts
+|-- next.config.ts
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.mjs
+|-- public
+    |-- c1.webp
+    |-- c2.jpg
+    |-- c3.jpg
+    |-- file.svg
+    |-- globe.svg
+    |-- logo
+        |-- logo_elite.svg
+    |-- next.svg
+    |-- porsche-911-model.jpg
+    |-- porsche-911-turbo-s-hero.jpg
+    |-- vercel.svg
+    |-- window.svg
+|-- README.md
+|-- src
+    |-- app
+        |-- favicon.ico
+        |-- globals.css
+        |-- layout.tsx
+        |-- models
+            |-- page.tsx
+        |-- page.tsx
+        |-- sales
+            |-- page.tsx
+        |-- services
+            |-- page.tsx
+    |-- components
+        |-- Logo.tsx
+        |-- MenuButton.tsx
+        |-- Navigation.tsx
+|-- tsconfig.json
