@@ -115,11 +115,11 @@ export default function Home() {
             <div className="hidden xl:block">
               <div className="flex items-center space-x-3">
                 <a href="/sales" className="text-white hover:text-red-400 transition-colors font-medium text-x whitespace-nowrap">
-                  BUY - xxxx xxxx xx
+                  BUY - 8135803360
                 </a>
                 <span className="text-white text-xl">|</span>
                 <a href="/sales" className="text-white hover:text-red-400 transition-colors font-medium text-x whitespace-nowrap">
-                  SELL - xxxx xxxx xx
+                  SELL -  9706127127
                 </a>
                 <span className="text-white text-xl">|</span>
                 <a href="/services" className="text-white hover:text-red-400 transition-colors font-medium text-x whitespace-nowrap">
@@ -159,19 +159,19 @@ export default function Home() {
           <div className="xl:hidden bg-black border-t border-gray-800">
             <div className="px-6 py-4 space-y-4">
               <a href="/sales" className="block text-white hover:text-red-400 transition-colors font-medium text-sm py-2">
-                BUY - 9999 9999 83
+                BUY - 8135803360
               </a>
               <a href="/sales" className="block text-white hover:text-red-400 transition-colors font-medium text-sm py-2">
-                SELL - 9999 9999 15
+                SELL -  9706127127
               </a>
               <a href="/services" className="block text-white hover:text-red-400 transition-colors font-medium text-sm py-2">
-                CAR DETAILING - 89999 99627
+                CAR DETAILING - 8135803360
               </a>
               <a href="/services" className="block text-white hover:text-red-400 transition-colors font-medium text-sm py-2">
-                SERVICING - 89999 99264
+                SERVICING -  9706127127
               </a>
               <a href="/services" className="block text-white hover:text-red-400 transition-colors font-medium text-sm py-2">
-                MODIFICATION - 89999 99627
+                MODIFICATION - 8135803360
               </a>
 
             </div>
@@ -591,9 +591,14 @@ export default function Home() {
                 <h4 className="text-sm font-medium text-white mb-4">Contact</h4>
                 <ul className="space-y-2 text-sm text-white/60">
                   <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Location</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Phone: +1 (555) 123-4567</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Email: info@elitemotors.com</a></li>
+                  <li className="hover:text-white transition-colors">
+                    Address: Next to KIA Motors, Garalia, Lokhra<br />
+                    Near Sarusajai Stadium<br />
+                    Guwahati, Kamrup Metropolitan<br />
+                    Assam, 781040
+                  </li>
+                  <li><a href="#" className="hover:text-white transition-colors">Phone: +91 8135803360</a></li>
+                  <li><a href="mailto:elitemotorsghy@gmail.com" className="hover:text-white transition-colors">Email: elitemotorsghy@gmail.com</a></li>
                 </ul>
               </div>
             </div>
@@ -603,7 +608,7 @@ export default function Home() {
           <div className="border-t border-white/20 mt-8 pt-8 text-center">
             <div className="text-2xl font-bold text-white mb-4">ELITE MOTORS SERVICE</div>
             <p className="text-sm text-white/60">
-              &copy; 2024 Elite Motors Service. All rights reserved.
+              &copy; 2025 Elite Motors Service. All rights reserved.
             </p>
           </div>
         </div>
