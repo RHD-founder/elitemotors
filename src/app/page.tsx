@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useCallback } from 'react';
 
+import Logo from "@/components/Logo";
+
 export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [currentCard, setCurrentCard] = useState(0);
@@ -104,10 +106,7 @@ export default function Home() {
             {/* Logo */}
             <div className="flex items-center">
               <Link href="/" className="flex items-center">
-                <div className="text-white">
-                  <div className="text-xl font-bold tracking-wide">ELITE MOTORS</div>
-                  <div className="text-xs text-gray-300">SERVICE</div>
-                </div>
+                <Logo size="medium" />
               </Link>
             </div>
 

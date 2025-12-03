@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* necessary for SSR support, injects stylesheet which defines visibility of pre-hydrated PDS components */}
         {getInitialStyles({ format: 'jsx' })}
@@ -50,6 +50,7 @@ export default function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
       >
         <PorscheDesignSystemProvider>
           {children}
